@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* THe CSS box sizing property allows us to in clude the padding and
+ border in an element's total width and height, add this rule to your 'reset .css'*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* Basic page container */
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f0f0f0f0;
+    
+}
+
+/* ---------------------------------- */
+/* Header                             */
+/* ---------------------------------- */
+
+
+.dashboard-top{
+    display: flex;  
+    height: 50px;
+    background-color: #580aa5;
+    justify-content: flex-start;
+    align-items: center;  
+    color: white;
+}
+
+.dashboard-text{
+    width: 320px;
+    margin-left: 10px;
+}
+
+p{
+    text-align: right;
+}
+
+nav ul {
+    width: 100% - 250px;
+    display: flex;  
+    list-style-type: none;        
+    margin: 0;                   
+    padding: 20px;   
+    margin-left: 80px;
+       
+   
+             
+                
+}
+nav ul li {
+    margin-left: 20px;  
+    text-align: left;          
+}
+
+nav ul li a {
+    color: white;                 
+    text-decoration: none;      
+    font-size: 16px;  
+  
+    
+              
+}
+
+.search-container{
+   display: flex;
+    height: 50px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+   
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 38px;
+    padding: 0 15px 0 40px;
+    
+    
+    font-size: 18px;
+    color: rgb(165, 168, 172);
+    background: rgba(236, 229, 229, 0.1) url(../assets/image/iconssearch.png) no-repeat 18px 8px;
+    background-size: 20px;
+    border: 1px solid rgba(21, 20, 20, 0.8);
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+/* ---------------------------------- */
+/* Main                            */
+/* ---------------------------------- */
+
+.container{
+    max-width: 70%;
+    margin: 50px auto;
+    
+   
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;    
+    font-weight: bold;  
+    color: #a5a5a5;
+}
+
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cell-first{
+    
+    width: 80px;
+    text-align: left;
+    padding: 0 10px;
+    
+    
+}
+
+.cell{
+    flex:1;
+    text-align: left;
+    padding: 0 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.icon-circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4B88A2;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 0px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn{
+    background-color: #d3d3d3;
+    color: #797777;
+    border:none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(145, 198, 180);
+}
+
+
+
+
+   
+/* ---------------------------------- */
+/* Footer                           */
+/* ---------------------------------- */    

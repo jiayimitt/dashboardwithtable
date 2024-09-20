@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jiayi">
+        <meta name="desdription" content="My web project">
+        <meta name="keywords" content="html,css,web,seo,web development">
+        <title>Dashboardtable</title>
+        <link rel="icon" href="./assets/image/letter-n.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+       
+        
+    </head>
+    <body>
+
+        <!--Header----------------------------------------------->
+        <header>
+            <div class="dashboard-top">
+               <div class="dashboard-text">
+                 <p>Dashboard</p>
+               </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text"  id="search" value="Search" required>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+  <!--main----------------------------------------------->
+        <main>
+          <div class="container">
+            <div class="data-table">
+                <div class="header">
+                    <div class="cell-first"></div>
+                    <div class="cell">DATA TYPE</div>
+                    <div class="cell">TOTAL</div>
+                    <div class="cell">LAST 7 DAYS</div>
+                    <div class="cell">LATEST RECORD</div>
+                    <div class="cell"></div>
+                </div>
+
+                <div class="table-row">
+                    <div class="cell-first">
+                        <div class="icon-circle" style="background-color: rgb(136, 183, 209);"><a class="icon-circle-text">R</a></div>                       
+                    </div>
+                    <div class="cell">Registered users</div>
+                    <div class="cell">138</div>
+                    <div class="cell">9</div>
+                    <div class="cell">May 7</div>
+                    <div class="cell"><button class="btn">Show more</button> </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="cell-first">
+                        <div class="icon-circle" style="background-color: rgb(182, 142, 184);"><a class="icon-circle-text">P</a></div>
+                        
+                    </div>
+                    <div class="cell">Published articles</div>
+                    <div class="cell">79</div>
+                    <div class="cell">3</div>
+                    <div class="cell">May 13</div>
+                    <div class="cell"><button class="btn">Show more</button> </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="cell-first">
+                        <div class="icon-circle" style="background-color: rgb(107, 146, 132);"><a class="icon-circle-text">A</a></div>
+                        
+                    </div>
+                    <div class="cell">Authors</div>
+                    <div class="cell">21</div>
+                    <div class="cell">1</div>
+                    <div class="cell">Apr 12</div>
+                    <div class="cell"><button class="btn">Show more</button> </div>
+                </div>
+                <div class="table-row">
+                    <div class="cell-first">
+                        <div class="icon-circle" style="background-color: rgb(148, 93, 196);"><a class="icon-circle-text">M</a></div>
+                        
+                    </div>
+                    <div class="cell">Messages</div>
+                    <div class="cell">12</div>
+                    <div class="cell">2</div>
+                    <div class="cell">May 21</div>
+                    <div class="cell"><button class="btn">Show more</button> </div>
+                </div>
+                <div class="table-row">
+                    <div class="cell-first">
+                        <div class="icon-circle" style="background-color: rgb(167, 119, 72);"><a class="icon-circle-text">V</a></div>
+                        
+                    </div>
+                    <div class="cell">Visits</div>
+                    <div class="cell">895</div>
+                    <div class="cell">46</div>
+                    <div class="cell">May 22</div>
+                    <div class="cell"><button class="btn">Show more</button> </div>
+                </div>
+
+
+
+            </div>
+          </div>
+        </main>
+
+  <!--Footer----------------------------------------------->
+  
+        
+    </body>
+</html>
